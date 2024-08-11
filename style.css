@@ -1,0 +1,47 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    height: auto;
+    width: auto;
+}
+.text{
+    color: red;
+    text-shadow: 3px 10px 10px ;
+}
+.temp{
+    display: block;
+    text-align: center;
+    background: linear-gradient(to top,rgb(255, 255, 255)50%,rgb(255, 255, 255)50%);
+    margin-top: 250px;
+    padding: 20px 20px;
+    max-width: 250px;
+    max-height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px;
+    margin-top: 180px;
+}
+#temparature{
+    border-color: black;
+    border-radius: 4px;
+}
+#Fahrenheitbtn{
+    margin-top: 15px;  
+}
+#Celsiusbtn{
+    margin-top: 15px;
+}
+#Submit{
+    color: black;
+    margin-top: 15px;
+    border-radius: 6px;
+    height: 28px;
+    width:  60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#Submit:active{
+    background-color: black;
+    color: white;
+}
